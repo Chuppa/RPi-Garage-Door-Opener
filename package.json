@@ -8,9 +8,6 @@
     "type": "git",
     "url": "git://github.com/Chuppa/RPi-Garage-Door-Opener.git"
   },
-  "bugs": {
-    "url": "https://github.com/Chuppa/RPi-Garage-Door-Opener/issues",
-  },
   "keywords": [
     "homebridge-plugin",
     "homebridge",
