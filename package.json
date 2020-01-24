@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-rpi-garage-door-opener",
+  "version": "1.0.0",
+  "description": "Garage Door Opener for Homebridge",
+  "author": "Chuppa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Chuppa/RPi-Garage-Door-Opener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chuppa/RPi-Garage-Door-Opener/issues",
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "garage",
+    "garagedoor",
+    "home"
+  ],
+  "engines": {
+    "node": ">=6.4.0",
+    "homebridge": ">=0.3.0"
+  },
+  "dependencies": {
+    "rpio": ">=0.9.13"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
