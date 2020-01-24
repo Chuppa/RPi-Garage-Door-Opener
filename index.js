@@ -8,10 +8,10 @@ module.exports = (homebridge) => {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
 
-  homebridge.registerAccessory('rpi-garage-door-opener);
+  homebridge.registerAccessory('rpi-garage-opener);
 };
 
-class rpi-garage-door-opener {
+class rpi-garage-opener {
   constructor (log, config) {
 
     //get config values
@@ -31,7 +31,7 @@ class rpi-garage-door-opener {
     this.informationService
       .setCharacteristic(Characteristic.Manufacturer, 'Raspberry Pi')
       .setCharacteristic(Characteristic.Model, 'Garage Door Opener')
-      .setCharacteristic(Characteristic.SerialNumber, '20200124');
+      .setCharacteristic(Characteristic.SerialNumber, '20200125');
   }
 
   getServices () {

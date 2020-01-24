@@ -1,2 +1,2 @@
-# RPi-Garage-Door-Opener
- Garage Door Opener for Raspberry Pi
+# RPi-Garage-Opener
+ Garage Opener for Raspberry Pi
